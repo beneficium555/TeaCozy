@@ -21,6 +21,7 @@ figure img {
 }
 figure figcaption {
     text-align: center;
+    margin-top: 10px;
     
 }
 ul {
@@ -47,9 +48,6 @@ li {
     height: 69px;
     border-bottom: 1px solid seashell;
     background-color: black;
-}
-html, body, .mission {
-    height: 100%;
 }
 .mission {
     background-image: url("./images/img-mission-background.jpg");
@@ -79,4 +77,31 @@ html, body, .mission {
     width: 300px;
     height: 200px;
     padding: 10px;
+}
+
+.locations {
+    background-image: url("./images/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position: top -50px center;
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    text-align: bottom;
+}
+.address {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.locname {
+    opacity: 1;
+    background-color: black;
+    display: inline-flex;
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
 }
