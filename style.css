@@ -1,0 +1,13 @@
+html, body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+}
+.header {
+    text-align: right;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+}
