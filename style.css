@@ -1,4 +1,4 @@
-html, body {
+html, body{
     height: 100%;
     margin: 0;
     padding: 0;
@@ -9,11 +9,20 @@ html, body {
     text-align: center;
     opacity: 0.9;
 }
-
 img {
-    height: 200px;
     width: 300px;
-} 
+    height: 200px;
+}
+figure {
+    display: inline-block;
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    text-align: center;
+    
+}
 ul {
     margin: 30px auto;
     padding: 0 20px;
@@ -58,4 +67,16 @@ html, body, .mission {
 #content{
     background-color: black;
     width:100%;
+}
+
+.featured-tea {
+    margin: auto;
+    width: 1000px;
+}
+
+.images {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
 }
