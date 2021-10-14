@@ -92,7 +92,8 @@ a {
     height: 500px;
     width: 1200px;
     margin: auto;
-    text-align: bottom;
+    text-align: center bottom;
+    padding-bottom: 15px;
 }
 .address {
     display: flex;
@@ -110,6 +111,10 @@ a {
     margin-right: auto;
     margin-left: auto;
     align-items: center;
+}
+
+#locations .h2 {
+    padding-top: 100px;
 }
 /* FOOTER PART */
 
