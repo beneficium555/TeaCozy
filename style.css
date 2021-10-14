@@ -1,3 +1,4 @@
+/* MAINS PART */
 html, body{
     height: 100%;
     margin: 0;
@@ -24,6 +25,7 @@ figure figcaption {
     margin-top: 10px;
     
 }
+/* HEADER PART */
 ul {
     margin: 30px auto;
     padding: 0 20px;
@@ -32,6 +34,9 @@ ul {
 li {
     display: inline-block;
     text-decoration: underline;
+}
+a {
+    color: seashell;
 }
 .logo {
     position: absolute;
@@ -49,6 +54,7 @@ li {
     border-bottom: 1px solid seashell;
     background-color: black;
 }
+/* MISSION PART */
 .mission {
     background-image: url("./images/img-mission-background.jpg");
     background-size: cover;
@@ -66,7 +72,7 @@ li {
     background-color: black;
     width:100%;
 }
-
+/* FEATURED TEA PART */
 .featured-tea {
     margin: auto;
     width: 1000px;
@@ -78,7 +84,7 @@ li {
     height: 200px;
     padding: 10px;
 }
-
+/* LOCATIONS PART */
 .locations {
     background-image: url("./images/img-locations-background.jpg");
     background-repeat: no-repeat;
@@ -104,4 +110,14 @@ li {
     margin-right: auto;
     margin-left: auto;
     align-items: center;
+}
+/* FOOTER PART */
+
+footer {
+    height: 200px;
+
+}
+.copyright {
+    text-align: left;
+    margin-left: 20px;
 }
